@@ -10,8 +10,7 @@ pip install virtualenv
 ### 遇到SSL驗證問題，跳過驗證
 pip install virtualenv --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
 
-如果要一次設定完，移動至 \.pyenv\pyenv-win\versions\3.8.12\Scripts 或虛擬環境 \3.8.12\Scripts
-建立 pip.ini，輸入下列設定：
+如果要一次設定完，避免每次都要輸入，移動至 \.pyenv\pyenv-win\versions\3.8.12\Scripts 或虛擬環境 \3.8.12\Scripts 建立 pip.ini，輸入下列設定：
 ```
 [global]
 trusted-host = pypi.org
