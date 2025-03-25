@@ -24,7 +24,7 @@ cd venv
 virtualenv 3.8.12
 
 ## 啟動虛擬環境
-.\3.8.112\Scripts\activate
+.\3.8.12\Scripts\activate
 
 ## 關閉虛擬環境
 deactivate
