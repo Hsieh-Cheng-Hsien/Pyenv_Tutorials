@@ -1,10 +1,10 @@
 # Windows安裝Pyenv
 PS C:\Windows\system32> Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 
-# 安裝Python版本
+## 安裝Python版本
 pyev install 3.8.12
 
-# 安裝虛擬環境指令
+## 安裝虛擬環境指令
 pip install virtualenv
 
 ### 遇到SSL驗證問題，跳過驗證
@@ -18,13 +18,13 @@ trusted-host = pypi.org
              files.pythonhosted.org
 ```
 
-# 建立特定Python版本的虛擬環境在venv統一管理
+## 建立特定Python版本的虛擬環境在venv統一管理
 mkdir venv
 cd venv
 virtualenv 3.8.12
 
-# 啟動虛擬環境
+## 啟動虛擬環境
 .\3.8.112\Scripts\activate
 
-# 關閉虛擬環境
+## 關閉虛擬環境
 deactivate
